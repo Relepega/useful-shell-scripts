@@ -20,3 +20,5 @@ a repo created for sharing useful installation/customization scripts
 	- select 2
 	- give two confirations
 	- done
+- [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+	- follow the installation guide on their website
