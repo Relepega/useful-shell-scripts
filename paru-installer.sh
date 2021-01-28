@@ -1,3 +1,5 @@
+#! /bin/sh
+
 echo "Paru (AUR helper) unofficial installation script"
 
 sudo pacman -S --needed base-devel
