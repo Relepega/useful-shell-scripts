@@ -2,6 +2,11 @@
 
 a repo created for sharing useful installation/customization scripts
 
+- fix to error: `unable to create io-slave. klauncher said: Error loading '/usr/lib/qt/plugins/kf5/kio/trash.so'.`
+	- `paru libkdepim`
+- uninstall packages that aren't depended by anyone:
+	- `pacman -Rcnsu $(pacman -Qdtq)`
+
 
 # useful and stylish packages
 - [exa](https://github.com/ogham/exa) - modern replacement for ls.
