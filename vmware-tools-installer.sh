@@ -1,3 +1,5 @@
+#! /bin/sh
+
 mkdir vmwti && cd vmwti
 
 cd vmware-tools-patches
