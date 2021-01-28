@@ -1,3 +1,5 @@
+#! /bin/sh
+
 git clone https://aur.archlinux.org/doas.git
 cd doas
 makepkg -si
