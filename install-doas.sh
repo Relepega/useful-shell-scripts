@@ -3,5 +3,5 @@ cd doas
 makepkg -si
 cd ..
 
-sudo echo "permit $USER as root" >> /etc/doas.conf
+echo "\n\npermit $USER as root" | sudo tee -a /etc/doas.conf
 doas rm -rf doas
