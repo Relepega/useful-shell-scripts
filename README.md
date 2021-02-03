@@ -2,6 +2,7 @@
 
 a repo created for sharing useful installation/customization scripts
 
+- run a script hosted on this repo: `curl https://raw.githubusercontent.com/Relepega/useful-shell-scripts/main/script_name.sh | bash`
 - fix to error: `unable to create io-slave. klauncher said: Error loading '/usr/lib/qt/plugins/kf5/kio/trash.so'.`
 	- `paru libkdepim`
 	- with other package managers: install `libkdepim`
